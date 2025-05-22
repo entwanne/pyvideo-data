@@ -1,0 +1,6 @@
+- Extract talks from CFP: https://cfp.pycon.fr/orga/event/pyconfr-2024/schedule/export/#tab-custom -> talks.json
+- Extract video links from Indymotion: https://indymotion.fr/api/v1/video-channels/pyconfr2024/videos?count=100 -> videos.json
+- Run python generate.py
+- Run python download.py
+- Upload videos on dl.afpy.org # https://dl.afpy.org/README.html
+- Make pull-request for category.json file & videos directory
